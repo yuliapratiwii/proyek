@@ -38,8 +38,8 @@ def macem_season(day_df):
     return season_df
 
 # Membaca data dari file CSV
-days_df = pd.read_csv("dashboard/day_clean.csv")
-hours_df = pd.read_csv("dashboard/hour_clean.csv")
+days_df = pd.read_csv("day_clean.csv")
+hours_df = pd.read_csv("hour_clean.csv")
 
 # Melakukan penyesuaian pada kolom datetime
 datetime_columns = ["dteday"]
